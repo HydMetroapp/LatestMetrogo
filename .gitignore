@@ -17,3 +17,5 @@ yarn-error.log*
 
 # Prisma
 prisma/.env
+node_modules/.prisma/
+.prisma/
