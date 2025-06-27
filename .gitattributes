@@ -1,0 +1,23 @@
+# Set default behavior to auto-conversion
+* text=auto
+
+# Explicitly normalize TypeScript, JSON, config files
+*.ts text
+*.json text
+*.js text
+*.css text
+*.md text
+*.toml text
+*.yml text
+*.yaml text
+*.html text
+*.tsx text
+*.jsx text
+
+# Keep images/binary files intact
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.ttf binary
