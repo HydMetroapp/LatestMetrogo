@@ -1,28 +1,31 @@
-# Set default behavior to auto-conversion
-* text=auto
+# Set default behavior to auto-detection and normalize to LF
+* text=auto eol=lf
 
-# Explicitly normalize TypeScript, JSON, config files
-*.ts text
-*.json text
-*.js text
-*.css text
-*.md text
-*.toml text
-*.yml text
-*.yaml text
-*.html text
-*.tsx text
-*.jsx text
+# Normalize common source files to LF
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.graphql text eol=lf
+*.gql text eol=lf
+*.env text eol=lf
 
-# Keep images/binary files intact
+# Keep binary files intact
 *.png binary
 *.jpg binary
+*.jpeg binary
 *.gif binary
 *.ico binary
-*.woff binary
+*.pdf binary
+*.zip binary
+*.tar binary
 *.ttf binary
-
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+*.woff binary
+*.woff2 binary
