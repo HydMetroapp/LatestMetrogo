@@ -19,5 +19,9 @@
     "app/api/**/*.js": {
       "maxDuration": 30
     }
+  },
+  
+  "git": {
+    "branch": "main"
   }
 }
