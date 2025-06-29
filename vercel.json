@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "hyderabad-metro-pwa",
+  "name": "latest-metrogo",
   "routes": [
     {
       "src": "/sw.js",
